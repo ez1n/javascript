@@ -18,5 +18,6 @@ console.log(string);
 
 // 템플릿 리터럴 (Template Literal) ``, $ 이용
 let id = "예진";
-let greetings = `안녕, ${id} \n즐거운 하루 보내요!`;
+let greetings = `안녕, ${id}
+즐거운 하루 보내요!`;
 console.log(greetings);
