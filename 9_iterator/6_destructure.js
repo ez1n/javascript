@@ -29,3 +29,19 @@ display(ellie);
 
 const { name, age, job: occupation, pet = '강아지' } = ellie;
 console.log(name, age, occupation, pet); // Ellie 20 s/w engineer 강아지
+
+
+// Quiz
+const prop = {
+  name: 'Button',
+  styles: {
+    size: 20,
+    color: 'black',
+  },
+};
+
+function changeColor({ styles: { color } }) {
+  console.log(color);
+}
+
+changeColor(prop);
